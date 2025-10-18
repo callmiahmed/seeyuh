@@ -4,4 +4,4 @@ this was made in several minutes. nothing serious but just a small funny app tha
 
 lol
 
-<img width="836" height="637" alt="image" src="https://github.com/user-attachments/assets/9a2ff651-7481-4341-b088-fb10cb3e9398" />
+<img width="836" height="637" alt="image" src="https://github.com/user-attachments/assets/3ad8bc10-ad6e-43b8-bac4-e8ff0f73d5bb"/>
