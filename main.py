@@ -5,9 +5,9 @@ import os
 
 pygame.mixer.init()
 
-sound_path = "seyuh-carti.mp3" 
-if not os.path.exists(sound_path):
-    raise FileNotFoundError(f"Sound file not found: {sound_path}")
+sound_path = "./seeyuh/seyuh-carti.mp3" 
+#if not os.path.exists(sound_path):
+#   raise FileNotFoundError(f"Sound file not found: {sound_path}")
 sound = pygame.mixer.Sound(sound_path)
 
 mp_hands = mp.solutions.hands
@@ -67,6 +67,8 @@ while True:
                 break
 
     if not matched:
+        cv2.putText(frame, "To destroy the window press the Escape key.", (160,90), cv2.FONT_HERSHEY_PLAIN, 1.2, (255,0,0), 1)
+    
         cv2.putText(frame, "FAWH no fingers detected", (50, 50), cv2.FONT_HERSHEY_SIMPLEX,
                     1, (0, 0, 255), 2)
         if sound_playing:
